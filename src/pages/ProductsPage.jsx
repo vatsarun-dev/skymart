@@ -6,8 +6,8 @@ import { ProductCard } from "../components/ProductCard";
 
 const sortOptions = [
   { value: "default", label: "Featured" },
-  { value: "price-asc", label: "Price: Low → High" },
-  { value: "price-desc", label: "Price: High → Low" },
+  { value: "price-asc", label: "Price: Low -> High" },
+  { value: "price-desc", label: "Price: High -> Low" },
   { value: "rating-desc", label: "Top Rated" },
   { value: "rating-asc", label: "Lowest Rated" },
 ];
@@ -42,7 +42,7 @@ export function ProductsPage() {
   const { products, categories, isLoadingProducts, productsError } = useAppContext();
 
   useEffect(() => {
-    document.title = "SkyMart | Products";
+    document.title = "SkyTrust | Products";
   }, []);
 
   useEffect(() => {

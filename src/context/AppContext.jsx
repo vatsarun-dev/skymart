@@ -2,10 +2,10 @@ import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
 const PRODUCTS_ENDPOINT = "https://dummyjson.com/products";
 const STORAGE_KEYS = {
-  USERS: "skymart_users",
-  AUTH_USER: "skymart_auth_user",
-  CART: "skymart_cart",
-  FAVORITES: "skymart_favorites",
+  USERS: "skytrust_users",
+  AUTH_USER: "skytrust_auth_user",
+  CART: "skytrust_cart",
+  FAVORITES: "skytrust_favorites",
 };
 
 const AppContext = createContext(null);

@@ -23,7 +23,7 @@ export function RegisterPage() {
   const password = watch("password");
 
   useEffect(() => {
-    document.title = "SkyMart | Register";
+    document.title = "SkyTrust | Register";
   }, []);
 
   useEffect(() => {
@@ -60,14 +60,14 @@ export function RegisterPage() {
             <Zap size={16} className="text-ink fill-ink" />
           </div>
           <span className="font-heading font-bold text-xl">
-            Sky<span className="text-volt">Mart</span>
+            Sky<span className="text-volt">Trust</span>
           </span>
         </div>
 
         <div className="auth-card">
           <h2 className="font-heading font-bold text-2xl mb-1">Create account</h2>
           <p className="text-white/40 text-sm font-body mb-8">
-            Join SkyMart and start shopping
+            Create an account to save your cart
           </p>
 
           {submitError ? (

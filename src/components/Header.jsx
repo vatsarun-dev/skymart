@@ -40,7 +40,7 @@ export function Header() {
             <Zap size={15} className="text-ink fill-ink" />
           </div>
           <span className="font-heading font-bold text-lg">
-            Sky<span className="text-volt">Mart</span>
+            Sky<span className="text-volt">Trust</span>
           </span>
         </NavLink>
 

@@ -20,7 +20,7 @@ export function LoginPage() {
   });
 
   useEffect(() => {
-    document.title = "SkyMart | Sign in";
+    document.title = "SkyTrust | Sign in";
   }, []);
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export function LoginPage() {
             <Zap size={18} className="text-ink fill-ink" />
           </div>
           <span className="font-heading font-bold text-2xl">
-            Sky<span className="text-volt">Mart</span>
+            Sky<span className="text-volt">Trust</span>
           </span>
         </div>
 
@@ -61,20 +61,15 @@ export function LoginPage() {
           <p className="text-volt text-sm font-body font-medium mb-4 tracking-widest uppercase">
             Welcome back
           </p>
-          <h1 className="font-heading font-bold text-5xl leading-tight mb-6">
-            Shop the future.
-            <br />
-            <span className="text-volt">Today.</span>
-          </h1>
+          <h1 className="font-heading font-bold text-5xl leading-tight mb-6">Sign in to continue.</h1>
           <p className="text-white/40 text-base font-body max-w-sm leading-relaxed">
-            Thousands of products, lightning-fast delivery, and prices that make your
-            wallet happy.
+            Demo store app built with React + Context API (data from DummyJSON).
           </p>
           <div className="grid grid-cols-3 gap-4 mt-12">
             {[
               { n: "20K+", l: "Products" },
               { n: "50K+", l: "Users" },
-              { n: "4.9★", l: "Rating" },
+              { n: "4.9*", l: "Rating" },
             ].map((item) => (
               <div
                 key={item.l}
@@ -95,7 +90,7 @@ export function LoginPage() {
               <Zap size={16} className="text-ink fill-ink" />
             </div>
             <span className="font-heading font-bold text-xl">
-              Sky<span className="text-volt">Mart</span>
+              Sky<span className="text-volt">Trust</span>
             </span>
           </div>
 

@@ -64,7 +64,7 @@ export function ProductDetailsPage() {
     currentIndex > -1 && currentIndex < products.length - 1 ? products[currentIndex + 1] : null;
 
   useEffect(() => {
-    document.title = product ? `SkyMart | ${product.title}` : "SkyMart | Product";
+    document.title = product ? `SkyTrust | ${product.title}` : "SkyTrust | Product";
   }, [product]);
 
   if (isLoadingProducts) {
@@ -210,7 +210,7 @@ export function ProductDetailsPage() {
 
           {inCart ? (
             <button type="button" onClick={openCart} className="btn-ghost w-full text-center text-sm">
-              View Cart →
+              View cart ->
             </button>
           ) : null}
 
